@@ -545,7 +545,7 @@ public final class FoodRegistry {
         14)
         .register(plugin);
 
-
+        // Void Realms Pizza
         new CustomFood(food, new SlimefunItemStack("SAMIDONT_PIZZA", "f1a689e7bfcf040575cba68cc36149203bfd713c3b81088739220ea5b7b7f9b9", "&rSamidont's Favorite Pizza", "", "&7&oRestores &b&o" + "7.5" + " &7&oHunger"),
         new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), getItem("SAUSAGE"), getItem("BACON"), null, null, null, null},
         20)
