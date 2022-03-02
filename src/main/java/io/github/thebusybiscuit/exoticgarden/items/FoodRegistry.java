@@ -546,32 +546,32 @@ public final class FoodRegistry {
         .register(plugin);
 
         // Void Realms Pizza
-        new CustomFood(food, new SlimefunItemStack("SAMIDONT_PIZZA", "da1772b52fd9f1e4dfce543725268e12f46f944534610490abeba67c18d1231e", "&rSamidont's Favorite Pizza", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
+        new CustomFood(food, new SlimefunItemStack("SAMIDONT_PIZZA", "da1772b52fd9f1e4dfce543725268e12f46f944534610490abeba67c18d1231e", "&rSausage and Bacon Pizza", "&fFavorite of Samidont!", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
         new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), getItem("SAUSAGE"), getItem("BACON"), null, null, null, null},
         20)
         .register(plugin);
 
-        new CustomFood(food, new SlimefunItemStack("NUCLEAR_PIZZA", "de068423d7b97f5db4d80951b61e380f24da41fcff7a33b2b264ba9e4b162ece", "&rNuclear's Favorite Pizza", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
+        new CustomFood(food, new SlimefunItemStack("NUCLEAR_PIZZA", "de068423d7b97f5db4d80951b61e380f24da41fcff7a33b2b264ba9e4b162ece", "&rHawaiian Pizza", "&fFavorite of Nuclear!", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
         new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), getItem("PINEAPPLE"), getItem("HAM"), null, null, null, null},
         20)
         .register(plugin);
 
-        new CustomFood(food, new SlimefunItemStack("MARV_PIZZA", "b965740a79f5fd529c2ae93793bc2558cc4486d87a81253fa902e1ad3f9575c5", "&rMarvjosh's Favorite Pizza", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
+        new CustomFood(food, new SlimefunItemStack("MARV_PIZZA", "b965740a79f5fd529c2ae93793bc2558cc4486d87a81253fa902e1ad3f9575c5", "&rHam and Cheese Pizza", "&fFavorite of Marvjosh!", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
         new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), getItem("HAM"), null, null, null, null, null},
         20)
         .register(plugin);
 
-        new CustomFood(food, new SlimefunItemStack("NEKOSITY_PIZZA", "22bd4dacf9f5c59ef34880c32c1526e489dd739df461eb5beeb8d36f8ab55b64", "&rNekosity's Favorite Pizza", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
-        new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), new ItemStack(Material.COOKED_SALMON), new ItemStack(Material.COOKED_COD), null, null, null, null},
+        new CustomFood(food, new SlimefunItemStack("NEKOSITY_PIZZA", "21d9d2301c60d5cd8949da664fd5c63bd5e5713116183b66318a1fc99ab0b1e4", "&rMeat Lovers Pizza", "&fFavorite of Nekosity!", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
+        new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), getItem("SAUSAGE"), new ItemStack(Material.COOKED_BEEF), getItem("PEPPERONIS"), null, null, null},
         20)
         .register(plugin);
 
-        new CustomFood(food, new SlimefunItemStack("SAMI_PIZZA", "280204f5f5b0b6082f2dbaf5d53429da287b27bd07658ce80d545551d26dc280", "&rSami's Favorite Pizza", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
+        new CustomFood(food, new SlimefunItemStack("SAMI_PIZZA", "280204f5f5b0b6082f2dbaf5d53429da287b27bd07658ce80d545551d26dc280", "&rChicken, Bacon, Spinach Pizza", "&fFavorite of Sami!", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
         new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("HEAVY_CREAM"), getItem("CHEESE"), new ItemStack(Material.COOKED_CHICKEN), getItem("BACON"), getItem("SPINACH"), null, null, null},
         20)
         .register(plugin);
 
-        new CustomFood(food, new SlimefunItemStack("SKIZZLES_PIZZA", "65711773d0b7d30af1c24e9aa5a0dcb788e9ed8b7cf73775c266780bc0089d97", "&rSkizzles Favorite Pizza", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
+        new CustomFood(food, new SlimefunItemStack("SKIZZLES_PIZZA", "65711773d0b7d30af1c24e9aa5a0dcb788e9ed8b7cf73775c266780bc0089d97", "&rCowboy Pizza", "&fFavorite of Skizzles!", "", "&7&oRestores &b&o" + "20.0" + " &7&oHunger"),
         new ItemStack[] {SlimefunItems.WHEAT_FLOUR, getItem("TOMATO"), getItem("CHEESE"), getItem("SAUSAGE"), getItem("OLIVES"), getItem("PEPPERONIS"), new ItemStack(Material.BROWN_MUSHROOM), new ItemStack(Material.BROWN_MUSHROOM), null},
         20)
         .register(plugin);
